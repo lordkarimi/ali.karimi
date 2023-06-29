@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impressum</title>
+    <link rel="stylesheet" media="screen" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body link= "green"  alink="violet"  vlink="blue">
+    <header>
+        <div class="links">
+            <a href="../index.html"><img src="../img/wbs_logo.jpg" alt="" width="50"></a>
+        </div>
+        <div class="topnav rechts" id="myTopnav">           
+            
+              
+                    <a href="../index.html"> <b>Home</b></a><!--a*5 dann 5 mal a haben wir-->
+                    <a href="../html/Listen.html"><b>Listen</b></a>
+                    <a href="../html/ueberschriften.html"><b>Überschriften</b></a>
+                    <a href="../html/contact.html"><b>Contact</b></a>
+                    <a href="../html/css.html"><b>CSS</b></a>
+                    <a href="../html/info.html"><b> Info</b></a> 
+               
+           
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    
+    </header>
+    <main>
+
+    </main>
+       <!--footer-->
+       <footer class="unten">
+        <h4>Footer Bereich</h4><br>
+        <div class="ps">
+            <nav>
+                <ol class="ps2">
+                    <li class="list_points"></li>
+                    <li class="list_points"><a href="../html/AGB.html">AGB</a></li>
+                    <li class="list_points"><a href="../html/datenschutz.html">Datenschutz</a></li>
+                    <li class="list_points"><a href="#">Cookies verwalten</a></li>
+                    <li class="list_points"><a href="#" class="active">Impressum</a></li>
+                   
+                </ol>
+            </nav>
+        </div>
+
+    </footer>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+     
+     
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Überschriften</title>
+    <header>
+        <div class="links">
+            <a href="../index.html"><img src="../img/wbs_logo.jpg" alt="" width="50"></a>
+         </div>
+        <div class="topnav rechts" id="myTopnav">           
+            
+             
+                    <a href="../index.html"> <b>Home</b></a><!--a*5 dann 5 mal a haben wir-->
+                    <a href="../html/Listen.html"><b>Listen</b></a>
+                    <a href="../html/ueberschriften.html" class="active"><b>Überschriften</b></a>
+                    <a href="../html/css.html"><b>CSS</b> </a>
+                    <a href="../html/info.html"><b> Info</b></a> 
+               
+           
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        </a>
+        </div>
+   
+    </header>
+</head>
+<body  link= "green"  alink="violet"  vlink="blue">
+    <main >
+        <div id="seiten_menue">
+            <ul class="seite_ul">
+                <li class="current">ÜBER UNS</li>
+                <hr>
+                <li><a href="">Praxis & Sprechzeiten</a> </li>
+                <li><a href="">Team</a> </li>
+                <li><a href="../html/contact.html">Kontakt & Impressum</a> </li>
+            </ul>
+        </div>
+        
+       
+    <div class="about">
+            <h2>Über uns</h2>
+            <hr>
+    
+            <img src="../img/wartezimmer.png" alt="" height="150" width="150">
+            <img src="../img/stethoskop.png" alt="" height="150" width="150"> 
+            <img src="../img/team.png"       alt="" height="150" width="150">
+            <img src="../img/zimmer.png"     alt="" height="150" width="150">
+            
+            <p class="termin"><a href="../html/contact.html" target="_blank"><b>Termin vereinbaren</b> </a> </p>
+    
+            <br>
+            <section class="inhalt_index">
+                <h1>Was sind die Überschriften?</h1>
+                <p>Überschriften werden in HTML verwendet, um Textabschnitte zu strukturieren und eine hierarchische Gliederung darzustellen. Sie dienen dazu, den Inhalt einer Webseite zu organisieren und Lesern dabei zu helfen, Informationen leichter zu erfassen. HTML bietet sechs verschiedene Überschriftsebenen, angefangen von <code>&lt;h1&gt;</code> als die größte Überschrift bis zu <code>&lt;h6&gt;</code> als die kleinste Überschrift. Durch die Verwendung der richtigen Überschriftenordnung können Suchmaschinen und Screenreader den Inhalt besser verstehen und Benutzern eine bessere Benutzererfahrung bieten.</p>  
+                <br>
+                <h1>Überschriften in HTML:</h1><br>
+                
+                <p>H1 ist die größte Überschrift</p>
+                <p>H2 die zweite Überschrift</p>
+                <p>H3 die dritte Überschrift</p>
+                <p>H4 die vierte Überschrift</p>
+                <p>H5 die fünfte Überschrift</p>
+                <p>H6 die sechste Überschrift</p>
+
+                <br>
+                <p><b>Überschriften diene einer Struktur und sind Orientierungshilfe</b></p>
+            </section>
+ </main>  
+           <!--footer-->
+      <footer class="unten">
+        <h4>Footer Bereich</h4><br>
+        <div class="ps">
+            <nav>
+                <ol class="ps2">
+                    <li class="list_points"></li>
+                    <li class="list_points"><a href="../html/AGB.html">AGB</a></li>
+                    <li class="list_points"><a href="../html/datenschutz.html">Datenschutz</a></li>
+                    <li class="list_points"><a href="#">Cookies verwalten</a></li>
+                    <li class="list_points"><a href="../html/impressum.html">Impressum</a></li>
+                    
+                </ol>
+            </nav>
+        </div>
+
+    </footer>
+           <!-- Unser Respnsive Menue-->
+     <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    
+</body>
+</html>

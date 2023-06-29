@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listen</title>
+    <link rel="stylesheet" media="screen" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body link= "green"  alink="violet"  vlink="blue">
+   
+    <!-- mein Kopfbereich -->
+    <header>
+        <div class="links">
+            <a href="../index.html"><img src="../img/wbs_logo.jpg" alt="" width="50"></a>
+          </div>
+        <div class="topnav rechts" id="myTopnav">  
+          
+               
+                    <a href="../index.html"><b>Home</b> </a>
+                    <a href="../html/Listen.html" class="active"><b>Listen</b> </a>
+                    <a href="../html/ueberschriften.html"><b>Überschriften</b> </a>
+                    <a href="../html/css.html"><b>CSS</b> </a>
+                    <a href="info.html"><b>Info</b> </a>
+    
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>    
+                    </a> 
+                    
+        </div>
+  
+    </header>
+    
+    <main>
+        <div id="seiten_menue">
+            <ul class="seite_ul">
+                <li class="current">ÜBER UNS</li>
+                <hr>
+                
+                <li><a href="">Praxis & Sprechzeiten</a> </li>
+                <li><a href="">Team</a> </li>
+                <li><a href="../html/contact.html">Kontakt & Impressum</a> </li>
+            </ul>
+        </div>
+        
+       
+    <div class="about">
+            <h2>Über uns</h2>
+            <hr>
+    
+            <img src="../img/wartezimmer.png" alt="" height="150" width="150">
+            <img src="../img/stethoskop.png" alt="" height="150" width="150"> 
+            <img src="../img/team.png"       alt="" height="150" width="150">
+            <img src="../img/zimmer.png"     alt="" height="150" width="150">
+            
+            <p></p><a href="../html/contact.html" target="_blank"><b>Termin vereinbaren</b> </a> </p> 
+            
+            <section class="inhalt_index">
+                <br>
+                <h1>Listen</h1>
+                <p>Die beschwerden <b>Listen</b> werden hier beschrieben:</p><br>
+                <cite><p>Dieser Text steht auf der Seite HTML Seminar -> Listen und Aufzählungen kommen laufend vor und sind besonders zu Weihnachten sehr wichtig. Ein Wunschzettel kann auch als Liste angesehen werden. Genauso natürlich To-do-Listen, Telefonlisten und Ähnliches.</p>
+                    <br><a href="https://www.html-seminar.de/html-listen.htm">Quelle: HTML Seminar</a></cite>
+
+                <br><br>
+                <cite>Diese Liste ist von uns</cite><br><br>
+            
+            <ol class="list">
+                    <li class="punkt1"><u><b><h2>Liste:</h2></b></u></li>
+                    <ol>
+                        <li class="list_1"><a href="../index.html">Home</a></li>
+                        <li class="list_1"><a href="../html/Listen.html">Listen</a></li>
+                        <li class="list_1"><a href="../html/ueberschriften.html">Überschriften</a> </li> 
+                    
+                        <ol>
+                            <li class="list_ul">H1 <br> h1 ist di größte Überschrift.</li>
+                            <li class="list_ul">H2</li>
+                            <li class="list_ul">H3</li>
+                            <li class="list_ul">H4</li>
+                            <li class="list_ul">H5</li>
+                            <li class="list_ul">H6</li>
+                        </ol>
+                    
+                  <li class="list_1"> <a href="../html/css.html">CSS</a></li>
+                  <li class="list_1"> <a href="../html/info.html">Info</a></li>
+                </ol>
+            </ol>
+                <br>
+                
+                    <p ><u>weitere Liste mit Links</u></p>
+                    <br>
+                    
+
+                    <ol>
+                        <li class="list_2"><a href="../index.html">Home</a></li>
+                        <li class="list_2"><a href="#">Listen</a></li>
+                        <li class="list_2"><a href="../html/ueberschriften.html">Überschriften</a></li>
+                        <li class="list_2"><a href="css.html">CSS</a></li>
+                        <li class="list_2"><a href="info.html">Info</a></li>
+                    </ol>
+          
+            </section>
+   
+     
+        </main>  
+
+            <!--footer-->
+      <footer class="unten">
+        <h4>Footer Bereich</h4><br>
+        <div class="ps">
+            <nav>
+                <ol class="ps2">
+                    <li class="list_points"></li>
+                    <li class="list_points"><a href="../html/AGB.html">AGB</a></li>
+                    <li class="list_points"><a href="../html/datenschutz.html">Datenschutz</a></li>
+                    <li class="list_points"><a href="#">Cookies verwalten</a></li>
+                    <li class="list_points"><a href="../html/impressum.html">Impressum</a></li>
+                    
+                </ol>
+            </nav>
+        </div>
+
+    </footer>
+     <!-- Unser Respnsive Menue-->
+     <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+           
+</html>
